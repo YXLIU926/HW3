@@ -1,3 +1,3 @@
 # streamlit-app
-HW3 - Build a Streamlit App
+Build a Streamlit App for Hong Kong hotels
 
