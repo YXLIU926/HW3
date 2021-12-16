@@ -5,10 +5,6 @@ Created on Fri Dec  3 20:33:10 2021
 """
 
 # -*- coding: utf-8 -*-
-"""Contextual_search_Hong Kong.ipynb
-Original file is located at
-    https://colab.research.google.com/drive/1d6Vjg6BERqtqqu-EFFaDASdk6Jaje6qr
-"""
 
 #pip install -U spacy
 #first install the library that would help us use BERT in an easy to use interface
