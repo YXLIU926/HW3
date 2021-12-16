@@ -39,7 +39,7 @@ import pickle as pkl
 
 st.title("Hong Kong Hotel Recommender App")
 st.subheader('Overview')
-st.markdown("Yunxin Liu - HW3")
+st.markdown("Yunxin Liu")
 
 st.markdown("A Hong Kong hotel recommendation system aims at suggesting properties/hotels to a user such that they would prefer the recommended property over others.")
 
