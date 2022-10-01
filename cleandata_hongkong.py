@@ -4,7 +4,7 @@ import csv
 
 def readHotels():
     contents = []
-    file = open(r"C:\Users\elton\Downloads\HotelListInHong Kong.csv", "r", encoding="mbcs")
+    file = open(r"C:\Users\Downloads\HotelListInHong Kong.csv", "r", encoding="mbcs")
     csv_reader = csv.reader(file)
     for row in csv_reader:
         contents.append(row)
@@ -29,7 +29,7 @@ def readHotels():
 def readReviews():
     contents = []
     dict = {}
-    file = open(r"C:\Users\elton\Downloads\hotelReviewsInHong Kong.csv", "r", encoding="mbcs")
+    file = open(r"C:\Users\Downloads\hotelReviewsInHong Kong.csv", "r", encoding="mbcs")
     csv_reader = csv.reader(file)
     for row in csv_reader:
         contents.append(row)
@@ -65,7 +65,7 @@ def generateCleanDataCSV():
     print(review_df.head())
     print(len(review_df))
     final_df = pd.merge(hotel_df, review_df, on="hotel_name")
-    final_df.to_csv(r"C:\Users\elton\Downloads\clean_data.csv", index = False)
+    final_df.to_csv(r"C:\Users\Downloads\clean_data.csv", index = False)
     print(len(final_df))
 
 # pd1 = readReviews()
